@@ -1,0 +1,14 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>SIT-1.0</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">CRM</feature>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+    </features>
+    <files>
+      <file>/SuiteScripts/Subsidiary Import Assistance.js</file>
+      <file>/SuiteScripts/NS_MR_SubsidiaryImport.js</file>
+    </files>
+  </dependencies>
+</manifest>
